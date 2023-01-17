@@ -19,7 +19,7 @@ namespace monotonous_me
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class IPQuery : Window
     {
         private void menuIPQuery_Click(object sender, RoutedEventArgs e)
         {
@@ -31,7 +31,7 @@ namespace monotonous_me
         {
             this.WindowState = WindowState.Minimized;
         }
-        public MainWindow()
+        public IPQuery()
         {
             InitializeComponent();
         }
