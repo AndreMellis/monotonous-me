@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Printing.IndexedProperties;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,6 +27,7 @@ namespace monotonous_me
             IPQuery querywindow = new IPQuery();
             Visibility = Visibility.Hidden;
             querywindow.Show();
+            this.Close();
         }
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {

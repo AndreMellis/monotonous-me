@@ -42,5 +42,10 @@
                 </StackPanel>
             </Border>
         </DockPanel>
+        <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" Grid.Row="1" TextWrapping="Wrap" x:Name="txtbox_ServerList" AcceptsReturn="True" Text="" VerticalAlignment="Top" Width="278" Height="342"/>
+        <Label Content="Server List:" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="IP List:" HorizontalAlignment="Left" Margin="362,10,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="362,35,0,0" Grid.Row="1" TextWrapping="Wrap" x:Name="txtbox_IPList" IsReadOnly="True" Text="" VerticalAlignment="Top" Width="278" Height="342"/>
+        <Button Content="Query" Name="btn_Query" Click="btnQuery_Click" HorizontalAlignment="Left" Margin="248,13,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Window>
